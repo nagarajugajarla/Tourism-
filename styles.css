@@ -1,0 +1,180 @@
+
+body{
+  background:#f3f3f3;
+}
+
+.container {
+  padding:0;
+}
+.main-nav-cont{
+  padding-left: 50px;
+  background:dodgerblue;
+}
+
+.nav a {
+  padding:16px 10px;
+  text-decoration: none;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.products-container{
+  background:white;
+}
+
+.View-container{
+  margin-top:100px;
+  margin-left:100px;
+}
+
+.badge-pill{
+  float: right;
+}
+.badge-secondary{
+  margin-left:20px;
+  background:green;
+  position: absolute;
+  right:20px;
+}
+.masthead-brand{
+    float:left;
+  }
+  
+  .nav-masthead{
+    float:right;
+  }
+
+  .container-body{
+      margin-top:20px;
+  }
+
+  .card-link-btn:hover .img-content{
+    opacity: 1;
+  }
+
+  .card-link-btn:hover .title-pos2{
+    left:20px;
+    opacity: 1;
+    color:wheat;
+  }
+
+  .title-pos1{
+    position: absolute;
+    bottom:20px;
+    left:20px;
+  }
+
+  .title-pos2{
+    position: absolute;
+    opacity: 0;
+    top:10px;
+    transition: color 5s;
+  }
+  .item-name{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: expanded;
+    font-size: 25px;
+  }
+  .item-sub-name{
+    color: white;
+    font-stretch: extra-condensed;
+    font-size: 25px;
+  }
+  .img-content{
+    max-width:-webkit-fill-available;
+    border-radius: 5px;
+    min-width:360px;
+    max-height:-webkit-fill-available;
+    min-height: 200px;
+    opacity: 0.8;
+  }
+
+  .img-view-cont{
+    max-width:400px;
+    max-height:400px;
+  }
+
+.products-container{
+  display:inline-block;
+  align-items:flex-start;
+  position:relative;
+  margin-right:20px;
+  margin-bottom: 40px;
+  min-width:360px;
+  height:200px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px #bfbfbf;
+}
+
+.container-body .products-container:nth-child(3){
+  margin-right:0;
+}
+
+
+.img-container{
+
+  width:100%;
+}
+.Spinner{
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+
+.display-inline{
+  display:inline-block;
+}
+
+.item-head-cont{
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.mr10{
+  margin-right:10px;
+}
+
+.img-container{
+  margin-bottom:20px;
+}
+
+.Filterbanner{
+  background-color: black;
+  padding:50px 0;
+  text-align:center;
+}
+
+.search-input{
+  border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    outline: 0;
+}
+
+.position-relative{
+  position:relative;
+  display:inline-block;
+}
+.search-icon{
+ width:20px;
+ height:20px;
+}
+ .icon-pos{
+ position: absolute;
+ right:20px;
+ top:15px;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+.dropdown-layout{
+
+  width:250px;
+  outline: 0;
+  border-radius: 2px;
+    height: 35px;
+    color:#737272;
+}

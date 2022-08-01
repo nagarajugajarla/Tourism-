@@ -6,7 +6,7 @@ class FooterCompt extends Component {
     render() {
         return (
             <div className='footer-layout'>
-                
+                My name is naga
             </div>
         );
     }
